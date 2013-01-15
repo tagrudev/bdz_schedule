@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    bdz (0.0.4)
+    bdz (0.0.6)
       faraday
       json
       nokogiri
