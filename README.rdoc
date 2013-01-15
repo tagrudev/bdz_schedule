@@ -1,3 +1,0 @@
-== Welcome to BDZ Schedule 
-
-It is a heroku app that uses bdz gem to generate json response of the Bulgarian Railstation schedule
