@@ -9,5 +9,5 @@ end
 get '/search' do
   content_type :json
   client = Bdz::Client.new
-  client.search(:ot => "#{params[:ot]}", :do => "#{params[:do]}").collect! {|train| train.as_json}
+  client.search(:ot => "#{params[:ot]}", :do => "#{params[:do]}").collect! {|train| JSON.parse(train.as_json)}.to_json
 end
